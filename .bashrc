@@ -20,7 +20,7 @@ alias ls="ls --color=auto"
 alias l="ls -CF"
 alias ll='LC_COLLATE=C.UTF-8 ls -lAhF --color=auto'
 alias vi=vim
-alias dclog='docker-compose logs -f --tail=100'
+alias dclog='docker compose logs -f --tail=100'
 alias cmdwatch=watch
 
 # Custom exports
