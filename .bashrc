@@ -12,6 +12,9 @@ then
 fi
 export PATH
 
+# Custom prompt
+PS1="\[\033[1;32m\]\\u\[\033[1;37m\]@\[\033[0;34m\]\\h\[\033[0;37m\] <\[\033[1;37m\]\w\[\033[0;37m\]> \[\033[0m\]"
+
 # User specific aliases and functions
 alias rm='rm -i'
 alias cp='cp -i'
